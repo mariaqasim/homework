@@ -1,0 +1,39 @@
+<style type ="text/css">
+
+table,tr,td,th
+{
+border:2px solid lightblue;
+font-family: goudy old style;
+
+}
+
+table
+{
+margin:10px auto;
+
+}
+
+
+body
+
+{
+margin: 0;
+padding:0;
+background-color:#e3e3e3;
+
+}
+
+.wrapper
+
+{
+width:80%;
+margin:0 auto;
+background-color:#f6f6f8;
+
+}
+
+
+
+
+
+</style>
