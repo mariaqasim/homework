@@ -1,0 +1,109 @@
+ body 
+ {
+      text-align:center;
+      padding:50px;
+      background-image: url("../img/blue.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+
+h1,h2,h3,p
+
+  {
+      font-family: lucida bright;
+
+  }
+
+  .dotted 
+
+  {
+      border-style: none;
+      background-color:beige;  
+  }
+
+  .solid
+
+  {
+      background-color:mistyrose;
+      border-width: 5px;
+      border-style: solid;
+      border-color: magenta;
+  }
+
+  .dashed
+  
+  {
+      background-color:azure; 
+      border-width: 5px;
+      border-style: dashed;
+      border-color: aquamarine;
+  }
+
+  .double
+  
+  {
+      background-color:bisque; 
+      border-width: 8px;
+      border-style: double;
+      border-color: #00d8d8;
+  }
+
+  .groove
+  
+  {
+      background-color:papayawhip; 
+      border-width: 5px;
+      border-style: groove;
+      border-color: palevioletred;
+  }
+
+  .ridge
+  
+  {
+      background-color:papayawhip;
+      border-width: 5px;
+      border-style: ridge;
+      border-color: palevioletred;
+  }
+
+  .inset
+  
+  {
+      background-color:lightcyan; 
+      border-width: 5px;
+      border-style: inset;
+      border-color: lightpink;
+  }
+
+  .outset
+  
+  {
+      background-color:lightcyan;
+      border-width: 5px;
+      border-style: outset;
+      border-color: lightpink;
+      
+  }
+
+  .hidden
+  
+  {
+      background-color:lemonchiffon; 
+      border-style: 5px;
+      border-style: hidden;
+      border-color: greenyellow;
+  }
+
+  .diff
+
+  {
+      border-left-style: groove;
+      border-right-style:double;
+      border-top-style: solid;
+      border-bottom-style: dashed;
+      border-width: 5px;
+      background-color: lemonchiffon;
+      border-color: #2c59a3;
+  }
+
