@@ -1,0 +1,35 @@
+.box
+{
+	background-color: #f6f6f6;
+	margin: 20px;
+	padding: 60px;
+	position: relative;
+	height: 300px;
+	width: 300px;
+	border: 1px solid #0090ff;
+	margin-top: 40px;
+
+	
+}
+
+div .box2
+{
+	background-color: #aaddef;
+	position: absolute;
+	border-radius: 50%;
+	top: -23px;
+    right: -30px;
+    width: 80px;
+    text-align: center;
+    height: 80px;
+    line-height: 45px;
+
+	
+}
+
+h1,p
+
+{
+	font-family: lucida bright;
+	text-align: center;
+}

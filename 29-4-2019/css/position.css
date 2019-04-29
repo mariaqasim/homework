@@ -1,0 +1,32 @@
+.box
+{
+	background-color: #fff;
+	position: relative;
+  	width: 520px;
+  	/*height: 250px;*/
+  	border: 1px solid #0090ff;
+  	padding-left: 30px;
+  	padding-top: 30px;
+  	padding-bottom: 30px;
+  	border-radius: 6px;
+    float: left;
+
+}
+
+
+div.absolute {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  left: 55%;
+  padding-right: 30px;
+ 
+}
+h1,h2
+{
+	font-family: lucida bright;
+  color: #0090ff;
+
+
+
+}
