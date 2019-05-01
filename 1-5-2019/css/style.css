@@ -1,0 +1,30 @@
+body{
+	background-image: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.m1{
+	width: 60%;
+	margin: 0 auto;
+	height: 700px;
+	background-color:#e3e3e3;
+	opacity: 0.3;
+	/*position: relative;*/
+	
+}
+body{
+	position:relative;
+}
+.m2{
+	position: absolute;
+	top:50px;
+	right:260px;
+	margin: 0 auto;
+	width: 60%;
+	color: black;
+	text-align: center;
+	/*border: 1px solid white;*/
+	opacity:none;
+	font-family: lucida bright;
+	left: -110px;/
+}
