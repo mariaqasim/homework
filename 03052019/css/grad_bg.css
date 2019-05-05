@@ -1,0 +1,20 @@
+/*body,html
+{
+	background-image: url("../img/600.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	/*padding-top: 50px;*/
+
+/*.gradBg
+{
+	background-image: radial-gradient
+}*/
+
+.canvas {
+ width: 100%;
+ height: -webkit-fill-available;
+ min-height: 100%;
+ background: linear-gradient(rgba(204, 0, 255, 0.5), rgba(204, 0, 255, 0.5)), url("../img/600.jpg");
+ background-size: cover;
+ background-position-x: center;
+}
