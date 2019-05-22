@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nested Function</title>
+
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		function hypotenuse(a, b) 
+
+		{
+			function square(x) { return x * x; }
+			return Math.sqrt(square(a) + square(b));
+		}
+
+			function secondFunction() 
+
+		{
+			var result;
+			result = hypotenuse(1, 2);
+			document.write(result);
+		}
+
+	</script>
+
+	<p>Click the following button to call the function</p>
+
+	<form>
+		<input type="button" onclick="secondFunction()"
+		value="Call Function">
+	</form>
+
+</body>
+</html>
