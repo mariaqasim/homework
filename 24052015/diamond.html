@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Diamond</title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		
+	var i;
+	var j ;
+	// var space;
+	var k = 0;
+	var n = 6;
+
+		// Print upper triangle 
+    for (i = 1; i <= n; i++) { 
+        // Print spaces 
+        for (j = 1; j <= n - i; j++) { 
+            document.write("&nbsp"); 
+        } 
+        // Print # 
+        while (k != (2 * i - 1)) { 
+            if (k == 0 || k == 2 * i - 2) 
+				document.write("*"); 
+            else
+                document.write("&nbsp"); 
+            k++; 
+        } 
+        k = 0; 
+        // move to next row 
+        document.write("<br>"); 
+    } 
+    n--; 
+    // Print lower triangle 
+    for (i = n; i >= 1; i--) { 
+        // Print spaces 
+        for (j = 0; j <= n - i; j++) { 
+            document.write("&nbsp");  
+
+        } 
+        // Print # 
+        k = 0; 
+        while (k != (2 * i - 1)) { 
+            if (k == 0 || k == 2 * i - 2) 
+                document.write("*");  
+            else
+                document.write("&nbsp");  
+            k++; 
+        } 
+        document.write("<br>");  
+    } 
+
+	</script>
+</body>
+</html>
