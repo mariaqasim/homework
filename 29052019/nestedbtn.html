@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap button group</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    
+     body
+    {
+      background-image: url(./img/201.png);
+    }
+
+      h1
+      {
+        font-family: Courgette;
+      }
+      
+      h2
+      {
+        font-family: great vibes;
+        /*font-weight: bold;*/
+      }
+
+  </style>
+
+</head>
+<body>
+
+<div class="container">
+
+  <h1>Nested Button Group</h1>
+
+    <div class="col-md-6">
+      <h2>Primary Button Group</h2>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary">Apple</button>
+          <button type="button" class="btn btn-primary">Samsung</button>
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Sony 
+                <span class="caret"></span>
+              </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Tablet</a></li>
+                    <li><a href="#">Smartphone</a></li>
+                </ul>
+            </div>
+        </div>
+        
+      
+      <h2>Danger Button Group</h2>
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger">Danger</button>
+          <button type="button" class="btn btn-danger">Don't touch
+          </button>
+            <div class="btn-group">
+              <button type="button" class="btn btn-danger 
+              dropdown-toggle" data-toggle="dropdown" >Harmful 
+                <span class="caret"></span>
+              </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Tablet</a></li>
+                    <li><a href="#">Smartphone</a></li>
+                </ul>
+            </div>
+        </div>
+
+      <h2>Info Button Group</h2>
+        <div class="btn-group">
+          <button type="button" class="btn btn-info">Information</button>
+          <button type="button" class="btn btn-info">Important</button>
+            <div class="btn-group">
+              <button type="button" class="btn btn-info dropdown-toggle"
+              data-toggle="dropdown">Knowledge 
+                <span class="caret"></span>
+              </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tablet</a></li>
+                  <li><a href="#">Smartphone</a></li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+
+
+    <div class="col-md-6">
+      <h2>Success Button Group</h2>
+        <div class="btn-group">
+          <button type="button" class="btn btn-success">Successful
+          </button>
+          <button type="button" class="btn btn-success">Submit</button>
+            <div class="btn-group">
+              <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Welcome 
+                <span class="caret"></span>
+              </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tablet</a></li>
+                  <li><a href="#">Smartphone</a></li>
+                </ul>
+            </div>
+        </div>
+
+      <h2>Active Button Group</h2>
+        <div class="btn-group">
+          <button type="button" class="btn btn-active">Active</button>
+          <button type="button" class="btn btn-active">Harmful</button>
+            <div class="btn-group">
+              <button type="button" class="btn btn-active dropdown-toggle" data-toggle="dropdown">Dangerous 
+                <span class="caret"></span>
+              </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tablet</a></li>
+                  <li><a href="#">Smartphone</a></li>
+                </ul>
+            </div>        </div>
+
+      <h2>Warning Button Group</h2>
+      <div class="btn-group">
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+          <div class="btn-group">
+              <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Warning 
+                <span class="caret"></span>
+              </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tablet</a></li>
+                  <li><a href="#">Smartphone</a></li>
+                </ul>
+            </div>
+      </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
