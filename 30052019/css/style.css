@@ -1,0 +1,127 @@
+body
+{
+	background-image: url(../img/201.png);
+}
+.box
+	{
+
+		background-color: #f6f6f6;
+		margin: 20px;
+		padding: 60px;
+		position: relative;
+		height: 400px;
+		width: 400px;
+		border: 1px solid #0090ff;
+		margin-top: 40px;
+
+	}
+
+/*.btn
+
+	{
+		border-radius: 50%;
+		width: 100px;
+		text-align: center;
+		height: 90px;
+		line-height: 45px;
+
+    }*/
+
+h2 
+	{
+	    font-size: 30px;
+	    line-height: 7;
+	    text-align: center;
+	    font-family: great vibes;
+	    font-weight: bold;
+	}
+
+h1
+	{
+		font-family: lobster two;
+		text-align: left;
+		padding-left: 175px;
+
+	}
+
+.btn-primary
+
+	{
+		position: absolute;
+		top: 25px;
+		left: 368px;
+	}
+
+	.btn-primary .badge {
+    color: #fcf8e3;
+    background-color: #0504a3;
+}
+
+
+
+.btn-danger
+	{
+
+		position: absolute;
+		top: 130px;
+		left: 368px;
+
+	}
+
+.btn-danger .badge 
+	{
+    color: #fcf8e3;
+    background-color: #ef807e;
+}
+
+.btn-info
+
+	{
+		position: absolute;
+		top: 295px;
+		left: 368px;
+
+	}
+
+.btn-info .badge {
+    color: #fcf8e3;
+    background-color: #6479db;
+}
+
+.btn-warning
+
+	{
+		position: absolute;
+		top: 185px;
+		left: 368px;
+	}
+
+.btn-warning .badge {
+    color: #fcf8e3;
+    background-color: #db8e32;
+}
+
+.btn-active
+
+	{
+		position: absolute;
+		top: 240px;
+		left: 368px;
+
+	}
+
+.btn-success
+	{
+		position: absolute;
+		top: 80px;
+		left: 368px;
+	}
+
+.btn-success .badge 
+{
+    color: #fcf8e3;
+    background-color: #00a31a;
+}
+
+
+
