@@ -5,13 +5,13 @@ body
 .box
 	{
 
-		background-color: #f6f6f6;
+		/*background-color: #f6f6f6;*/
 		margin: 20px;
 		padding: 60px;
 		position: relative;
 		height: 400px;
 		width: 400px;
-		border: 1px solid #0090ff;
+		border: 2px solid #0090ff;
 		margin-top: 40px;
 
 	}
@@ -48,7 +48,7 @@ h1
 
 	{
 		position: absolute;
-		top: 25px;
+		top: 130px;
 		left: 368px;
 	}
 
@@ -63,7 +63,7 @@ h1
 	{
 
 		position: absolute;
-		top: 130px;
+		top: 185px;
 		left: 368px;
 
 	}
@@ -78,7 +78,7 @@ h1
 
 	{
 		position: absolute;
-		top: 295px;
+		top: 25px;
 		left: 368px;
 
 	}
@@ -92,7 +92,7 @@ h1
 
 	{
 		position: absolute;
-		top: 185px;
+		top: 240px;
 		left: 368px;
 	}
 
@@ -105,7 +105,7 @@ h1
 
 	{
 		position: absolute;
-		top: 240px;
+		top: 295px;
 		left: 368px;
 
 	}
