@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <style>
+      
+       body
+    {
+      background-image: url(./img/201.png);
+      background-size: contain;
+       background-repeat:repeat;
+    }
+
+      h1
+      {
+        font-family: Courgette;
+      }
+      
+      h2
+      {
+        font-family: great vibes;
+        /*font-weight: bold;*/
+      }
+
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+  
+  <h1>Dropdown</h1>
+
+  <h2>Basic Dropdowns</h2>
+                                            
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+        <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+    </div>
+
+    <!-- //////////////////////////////////////////////////// -->
+
+    <h2>My Menu</h2>
+
+    <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">My menu
+        <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Choclates</a></li>
+            <li><a href="#">Perfumes</a></li>
+            <li><a href="#">Scarfs</a></li>
+          </ul>
+    </div>
+
+    <!-- ////////////////////////////////////////////////////////// -->
+
+    <h2>Dropdown with Divider</h2>
+
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+        <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">Bootstrap</a></li>
+            <li><a href="#">Laravel</a></li>
+            <li class="divider"></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+    </div>
+
+    <!-- ////////////////////////////////////////////////// -->
+
+     <h2>Dropdown with Divider & Header</h2>
+
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+        <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Menu Header</li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">Bootstrap</a></li>
+            <li><a href="#">Laravel</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Divider Header</li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+    </div>
+
+    <!-- //////////////////////////////////////////////////////////// -->
+
+    <h2>Dropdown with Disabled Button</h2>
+
+     <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+        <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Normal</a></li>
+            <li class="disabled"><a href="#">Disabled</a></li>
+            <li class="active"><a href="#">Active</a></li>
+            <li><a href="#">Normal</a></li>
+          </ul>
+  </div>
+
+  <!-- ////////////////////////////////////////////////////////// -->
+
+  <h2>Dropup Menu</h2>
+
+     <div class="dropup">
+      <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+        <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Normal</a></li>
+            <li class="disabled"><a href="#">Disabled</a></li>
+            <li class="active"><a href="#">Active</a></li>
+            <li><a href="#">Normal</a></li>
+          </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
