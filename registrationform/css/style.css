@@ -1,0 +1,71 @@
+body
+    {
+      background-image: url(../img/201.png);
+      background-size: contain;
+      background-repeat:repeat;
+    }
+
+label
+{
+  font-family:Playfair Display;
+}
+      
+  h2
+    {
+      /*font-family: great vibes;*/
+      /*font-weight: bold;*/
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+  p
+    {
+      font-family: Open Sans;
+      background-color: #35bdf0; 
+      color: white;
+      text-align: center;
+      font-size: xx-large;
+      box-shadow: 0px 4px 3px 0px #31708f;
+
+    }
+
+    a
+    {
+      font-family: Playfair Display;
+    }
+
+h3
+{
+
+/*font-family: Playfair Display;*/
+       /*font-family: Satisfy;
+       font-family: Allura;*/
+       font-family: Alex Brush;
+       font-weight: bold;
+       /*padding-left: 50px;*/
+       text-align: center;
+text-transform: uppercase;
+
+}
+
+.col-lg-3
+{
+	background-color: #31acdb;
+}
+
+.bgcolor
+{
+	background-color: white;
+	text-align: center;
+}
+
+.height
+{
+  height: 660px;
+}
+
+/*.width
+{
+  width: 150%;
+}*/
